@@ -1,6 +1,6 @@
 <?php    
 
-    $to = "ingrydmoura1994@gmail.com";
+    $to = "bitwebjr@gmail.com";
     $from = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
     $name = $_REQUEST['name'];
@@ -35,7 +35,7 @@ if($_POST) {
 	}
 	// Check Email
 	if (!preg_match('/^[a-z0-9&\'\.\-_\+]+@[a-z0-9\-]+\.([a-z0-9\-]+\.)*+[a-z]{2}/is', $email)) {
-		$error['email'] = "Digite um e-mail válido.";
+		$error['email'] = "Digite um e-mail vï¿½lido.";
 	}
   if (strlen($contact_message) < 2) {
 		$error['subject'] = "Digite o assunto";
